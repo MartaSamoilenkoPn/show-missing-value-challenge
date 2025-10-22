@@ -1,5 +1,7 @@
 # show-missing-value-challenge
 
+Team (Anna Yaremko, Marta Samoilenko, Bohdan Pavliuk, Anastasia Pelekh)
+
 ### Approach
 
 We analyze missing values at the column level, calculating both counts and percentages for each field. For numeric columns, we check for both NULL and NaN values to ensure complete coverage. The results are visualized using a sorted bar chart with a red gradient color scheme, where darker colors indicate better data quality.
